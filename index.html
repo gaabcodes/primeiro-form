@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de Formulário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <form id="form" class="form">
+
+      <div class="header">
+        <h1>Contact Us</h1>
+      </div>
+
+      <div class="group-container"><!--container principal que vai abranger os dois elementos(duas classes)-->
+      
+      <div class="name">
+      <label for="firstname">First Name<span class="block">*</span></label>
+      <input maxlength="10" minlength="5" type="text" id="firstname" class="input required" oninput="nameValidate()">
+      <span class="span-required">This field is required</span>
+      </div>
+
+      <div class="name">
+      <label for="lastname">Last Name<span class="block">*</span></label>
+      <input maxlength="10" minlength="5" type="text" id="lastname" class="input required" oninput="lastnameValidate()">
+      <span class="span-required">This field is required</span>
+      </div>
+
+      </div>
+
+      <div class="group-email">
+      <div class="input-box">
+        <label for="email">Email Adress<span class="block">*</span></label>
+        <input maxlength="30" minlength="15" type="email" id="email" name="email" class="input required" oninput="emailValidate()">
+        <span class="span-required">Please enter a valid email adress</span>
+
+        
+      </div>
+      
+      </div>
+
+    <div class="group-selecao">
+      <label for="query-type">Query-Type<span class="block">*</span></label>
+    
+    <div class="radio-opcoes">
+        <label class="opcoes">
+            <input type="radio" name="option" value="General Enquiry">General Enquiry
+        </label>
+        
+        <label class="opcoes">
+            <input type="radio" name="option" value="Support Request">Support Request
+        </label>
+    </div>
+
+    <span class="span-required">Please select a query type</span>
+
+    </div>
+
+      <div class="group-mensage">
+      <div class="input-box">
+        <label for="mensagem">Message<span class="block">*</span></label>
+        <textarea type="text" rows="6" cols="40" name="mensagem" id="mensagem" ></textarea>
+        <span class="span-required">This field is required</span>
+      </div>
+
+
+    <div class="checkbox-box">
+      <input type="checkbox" id="termo" name="termo" />
+      <label for="termo">
+    I consent to being contacted by the team <span class="required">*</span>
+    </label>
+    <span class="span-required">To submit this form, please consent to being contacted</span>
+    </div>
+
+    <button type="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
