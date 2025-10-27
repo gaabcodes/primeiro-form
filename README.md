@@ -1,34 +1,32 @@
-# Primeiro Formulário
+<h1 align="center" style="font-weight: bold;">Primeiro Formulário 📝</h1>
+<p align="center">
+    <b>Projeto desenvolvido como parte de um desafio do Frontend Mentor, com o objetivo de praticar a criação de formulários responsivos,  conceitos de validações e estruturas do DOM.</b>
+</p>
+<h2 id="layout">🎨 Layout</h2>
 
-Este projeto foi desenvolvido como parte de um desafio do **Frontend Mentor**, com o objetivo de praticar a criação de **formulários responsivos** utilizando **HTML**, **CSS** e **JavaScript**.
+<p align="center">
+    <img src="/form.png" alt="Layout do formulário" width="400px">
+</p>
+<p align="center">
+     <a href="https://gaabcodes.github.io/primeiro-form/">📱 Acesse o Projeto</a>
+</p>
 
-## 🛠 Tecnologias utilizadas
+<h2 id="tech">💻Tecnologias</h2>
+- HTML5 <br>
+- CSS3  <br>
+- JavaScript <br>
 
-- HTML5  
-- CSS3  
-- JavaScript  
+# ✨Funcionalidades
+-  Validação completa dos campos do formulário.
+-  Exibição de mensagens de erro personalizadas para cada campo inválido.
+-  Feedback visual ao usuário indicando o envio bem-sucedido do formulário.
 
-## 🎯 Objetivo
+<h2 id="learning">📘 Focos de Aprendizado</h2>
 
-O desafio consistia em replicar o design de um formulário de inscrição, focando em boas práticas de **estruturação HTML**, **estilização CSS** e implementando interatividade com **JavaScript**.
-
-## ✨ Funcionalidades
-
-- ✅ Validação completa dos campos do formulário.  
-- ✅ Exibição de mensagens de erro personalizadas para cada campo inválido.  
-- ✅ Feedback visual ao usuário indicando o envio bem-sucedido do formulário.  
-
-## 📝 Desafio
-
-Este projeto faz parte do site **[Frontend Mentor](https://www.frontendmentor.io/)**, uma plataforma que oferece desafios para desenvolvedores praticarem e aprimorarem suas habilidades com projetos baseados em designs reais.
-
-## 🚀 Como visualizar o projeto
-
-👉 [**Clique aqui para acessar o projeto online**](https://gaabcodes.github.io/primeiro-form/)  
-
-Ou, se preferir, clone o repositório e abra o arquivo `index.html` no navegador:
-
-```bash
-git clone https://github.com/gaabcodes/primeiro-form.git
-cd primeiro-form
-# abra o index.html no navegador
+- Captura e manipulação de elementos com `getElementById` e `querySelectorAll`.  
+- Uso de eventos, como `submit`, para validar os campos antes do envio.  
+- Criação de funções específicas para validar texto, e-mail, rádio, checkbox e mensagem.  
+- Aplicação de **Regex** para validação de e-mail.  
+- Exibição de mensagens de erro e feedback visual ao usuário.  
+- Criação de um **alerta de sucesso se o formulario estiver tudo ok** com JavaScript.  
+- Melhoria da legibilidade e organização do código.
