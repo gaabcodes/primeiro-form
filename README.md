@@ -39,3 +39,12 @@ coloque no seu cmd:
 git clone https://github.com/gaabcodes/primeiro-form.git<br>
 cd primeiro-form <br>
 abra o index.html no navegador <br>
+
+#🧲Ferramentas utilizadas
+- VSCODE
+- https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Forms/Form_validation
+- https://www.w3schools.com/js/js_validation.asp
+- 
+<h2 id="conclusion">🏁 Conclusão</h2>
+Esse projeto foi essencial para reforçar conceitos de **JavaScript**, principalmente na **manipulação do DOM**, **validação de formulários** e **interatividade com o usuário**, consolidando a base para futuros projetos front-end mais complexos.
+
