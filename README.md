@@ -30,3 +30,12 @@
 - Exibição de mensagens de erro e feedback visual ao usuário.  
 - Criação de um **alerta de sucesso se o formulario estiver tudo ok** com JavaScript.  
 - Melhoria da legibilidade e organização do código.
+  
+# 💻 Como visualizar o projeto <br>
+clique nesse link https://gaabcodes.github.io/primeiro-form/ ou, se preferir, clone o repositório e abra o arquivo index.html em qualquer navegador. 
+<br>
+coloque no seu cmd:
+<br>bash<br>
+git clone https://github.com/gaabcodes/primeiro-form.git<br>
+cd primeiro-form <br>
+abra o index.html no navegador <br>
