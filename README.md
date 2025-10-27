@@ -40,11 +40,12 @@ git clone https://github.com/gaabcodes/primeiro-form.git<br>
 cd primeiro-form <br>
 abra o index.html no navegador <br>
 
-#🧲Ferramentas utilizadas
+# 🧲Ferramentas utilizadas
 - VSCODE
 - https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Forms/Form_validation
 - https://www.w3schools.com/js/js_validation.asp
-- 
+- https://www.google.com/search?q=valida%C3%A7%C3%A3o+de+formulario+com+javascript&oq=&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg5MgYIARBFGDsyCQgCEAAYChiABDIMCAMQABgKGLEDGIAEMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQABgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEIODczMWowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:6995a7b5,vid:YcTkoIAi0Bg,st:0
+  
 <h2 id="conclusion">🏁 Conclusão</h2>
-Esse projeto foi essencial para reforçar conceitos de **JavaScript**, principalmente na **manipulação do DOM**, **validação de formulários** e **interatividade com o usuário**, consolidando a base para futuros projetos front-end mais complexos.
+Esse projeto foi essencial para reforçar conceitos de JavaScript, principalmente na Manipulação do DOM, Validação de formulários e Interatividade com o usuário, consolidando a base para futuros projetos front-end mais complexos.
 
