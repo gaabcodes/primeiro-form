@@ -17,19 +17,18 @@
 - JavaScript <br>
 
 # ✨Funcionalidades
--  Validação completa dos campos do formulário.
--  Exibição de mensagens de erro personalizadas para cada campo inválido.
--  Feedback visual ao usuário indicando o envio bem-sucedido do formulário.
+-  Seleção dos numeros e da moeda escolhida atraves de eventos
+-  Função principal para realizar o calculo da moeda com o preço escolhido
+-  Função utilizada para converter a moeda em real brasileiro
+-  Criação de variaveis para moeda que podem ser alterados durante outra versão do codigo 
 
 <h2 id="learning">📘 Focos de Aprendizado</h2>
 
-- Captura e manipulação de elementos com `getElementById` e `querySelectorAll`.  
-- Uso de eventos, como `submit`, para validar os campos antes do envio.  
-- Criação de funções específicas para validar texto, e-mail, rádio, checkbox e mensagem.  
-- Aplicação de **Regex** para validação de e-mail.  
-- Exibição de mensagens de erro e feedback visual ao usuário.  
-- Criação de um **alerta de sucesso se o formulario estiver tudo ok** com JavaScript.  
-- Melhoria da legibilidade e organização do código.
+- Captura e manipulação de elementos com `getElementById` e `querySelector`.  
+- Uso de eventos, como `form.onsubmit`, feito para selecionar objetos de formualrio nesse caso, selecionar o tipo de moeda escolhida. 
+- Criação de um TRY/CATCH para capturar e tratar erros (exceções) que podem ocorrer durante a execução do bloco de código.
+- Criação de um **alerta** se nao for possivel fazer a conversão.
+- Legibilidade e organização do código.
   
 # 💻 Como visualizar o projeto <br>
 clique nesse link https://gaabcodes.github.io/primeiro-form/ ou, se preferir, clone o repositório e abra o arquivo index.html em qualquer navegador. 
@@ -42,10 +41,7 @@ abra o index.html no navegador <br>
 
 # 🧲Ferramentas utilizadas
 - VSCODE
-- https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Forms/Form_validation
-- https://www.w3schools.com/js/js_validation.asp
-- https://www.google.com/search?q=valida%C3%A7%C3%A3o+de+formulario+com+javascript&oq=&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg5MgYIARBFGDsyCQgCEAAYChiABDIMCAMQABgKGLEDGIAEMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQABgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEIODczMWowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:6995a7b5,vid:YcTkoIAi0Bg,st:0
   
 <h2 id="conclusion">🏁 Conclusão</h2>
-Esse projeto foi essencial para reforçar conceitos de JavaScript, principalmente na Manipulação do DOM, Validação de formulários e Interatividade com o usuário, consolidando a base para futuros projetos front-end mais complexos.
+Esse projeto foi essencial para reforçar conceitos de JavaScript, principalmente Manipulação do DOM, eventos, funçoes, try/catch, replace utilizado para excluir string e principalmente, a interatividade com o usuário, consolidando a base para futuros projetos front-ends.
 
